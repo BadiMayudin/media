@@ -1,0 +1,39 @@
+<html>
+	<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<style>
+			body{
+				background-color:red;
+				display:flex;
+				justify-content:center;
+				align-items:center;
+			}	
+			div{
+				display:none;
+			}
+			@media screen and (max-width:1920px)
+			{
+				body{
+					background-color:green;
+				}
+				.box{display:block;}
+			}
+			@media screen and (max-width:1600px)
+			{
+				body{background-color:yellow;}
+				.box{display:none;}
+				.box2{disply:block;}
+			}
+
+		</style>
+	</head>
+<body>
+	<div class="box">
+	<h1>BIG DISPLAY</h1>
+	</div>
+	<div class="box2">
+	<h1>LARGE LAPTOP</h1>
+	</div>
+</body>
+</html>
